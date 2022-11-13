@@ -12,3 +12,7 @@ jobs:
       - name: 'Printing folder contents'
         run: ls
 
+      - uses: actions/checkout@v3
+
+      - name: 'Printing folder contents After Add'
+        run: ls
